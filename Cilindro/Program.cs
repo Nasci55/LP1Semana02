@@ -15,6 +15,13 @@ namespace Cilindro
 
             (double height, double radius) = (Convert.ToDouble(cilinderHeight), Convert.ToDouble(cilinderRadius));
 
+            double volume = (Math.PI * Math.Pow(radius, 2) * height);
+
+            double surface = (2 * Math.PI * radius * (radius + height));
+
+            System.Console.WriteLine(volume);
+            System.Console.WriteLine(surface);
+
 
         }
     }
