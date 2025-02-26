@@ -28,6 +28,18 @@ namespace ValoresEspeciais
             System.Console.WriteLine(ushort.MaxValue);
 
 
+
+            System.Console.WriteLine(double.PositiveInfinity);
+            System.Console.WriteLine(double.NegativeInfinity);
+            System.Console.WriteLine(float.PositiveInfinity);
+            System.Console.WriteLine(float.NegativeInfinity);
+            System.Console.WriteLine(float.NaN);
+            System.Console.WriteLine(double.NaN);
+
+
+
+
+
         }
     }
 }
