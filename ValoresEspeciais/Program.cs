@@ -1,0 +1,33 @@
+﻿using System;
+
+namespace ValoresEspeciais
+{
+    public class Program
+    {
+        private static void Main(string[] args)
+        {
+            System.Console.WriteLine(int.MinValue);
+            System.Console.WriteLine(int.MaxValue);
+            System.Console.WriteLine(byte.MinValue);
+            System.Console.WriteLine(byte.MaxValue);
+            System.Console.WriteLine(sbyte.MinValue);
+            System.Console.WriteLine(sbyte.MaxValue);
+            System.Console.WriteLine(decimal.MinValue);
+            System.Console.WriteLine(decimal.MaxValue);
+            System.Console.WriteLine(double.MinValue);
+            System.Console.WriteLine(double.MaxValue);
+            System.Console.WriteLine(float.MinValue);
+            System.Console.WriteLine(float.MaxValue);
+            System.Console.WriteLine(char.MinValue);
+            System.Console.WriteLine(char.MaxValue);
+            System.Console.WriteLine(uint.MinValue);
+            System.Console.WriteLine(uint.MaxValue);
+            System.Console.WriteLine(long.MinValue);
+            System.Console.WriteLine(ulong.MaxValue);
+            System.Console.WriteLine(short.MinValue);
+            System.Console.WriteLine(ushort.MaxValue);
+
+
+        }
+    }
+}
