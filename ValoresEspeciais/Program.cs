@@ -40,6 +40,10 @@ namespace ValoresEspeciais
             uint overflow = uint.MaxValue;
             System.Console.WriteLine((uint)(overflow + 1));
 
+            float overFloat = float.MaxValue;
+            System.Console.WriteLine(2 * overFloat);
+            System.Console.WriteLine(overFloat + 1);
+
 
         }
     }
