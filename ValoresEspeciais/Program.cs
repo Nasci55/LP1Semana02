@@ -45,6 +45,13 @@ namespace ValoresEspeciais
             System.Console.WriteLine(overFloat + 1);
 
 
+            float uf1, uf2; 
+
+            uf1 = uf2 = 100000000; 
+
+            System.Console.WriteLine(uf1 == uf2 + 0.00001f);    
+
+
         }
     }
 }
