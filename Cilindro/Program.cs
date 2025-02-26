@@ -19,8 +19,10 @@ namespace Cilindro
 
             double surface = (2 * Math.PI * radius * (radius + height));
 
-            System.Console.WriteLine(volume);
-            System.Console.WriteLine(surface);
+            System.Console.WriteLine($"{volume:f3}");
+            System.Console.WriteLine($"{surface:f3}");
+
+
 
 
         }
