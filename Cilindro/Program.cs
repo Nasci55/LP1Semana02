@@ -11,6 +11,11 @@ namespace Cilindro
 
             System.Console.WriteLine("Insira o raio do cilindro");
             string cilinderRadius = Console.ReadLine();
+
+
+            (double height, double radius) = (Convert.ToDouble(cilinderHeight), Convert.ToDouble(cilinderRadius));
+
+
         }
     }
 }
