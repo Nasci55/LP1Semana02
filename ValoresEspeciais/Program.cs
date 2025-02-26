@@ -37,7 +37,8 @@ namespace ValoresEspeciais
             System.Console.WriteLine(double.NaN);
 
 
-
+            uint overflow = uint.MaxValue;
+            System.Console.WriteLine((uint)(overflow + 1));
 
 
         }
