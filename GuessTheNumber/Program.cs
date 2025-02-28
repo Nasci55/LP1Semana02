@@ -38,6 +38,7 @@ namespace GuessTheNumber
 
                     System.Console.WriteLine($"The hidden number is higher than {numb}. Try again.");
                 }
+
                 else
                 {
                     System.Console.WriteLine($"You found the hidden number {numberToGuess} after {tries} tries.");
